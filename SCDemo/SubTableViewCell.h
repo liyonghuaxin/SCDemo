@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SubTableViewCell.h
 //  SCDemo
 //
 //  Created by apple on 2018/1/18.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+@interface SubTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *imageV;
 
 @end
-

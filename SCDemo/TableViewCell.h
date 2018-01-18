@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewCell.h
 //  SCDemo
 //
 //  Created by apple on 2018/1/18.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TableViewCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+@property(nonatomic,strong)UITableView *myTableView;
 
 @end
-
